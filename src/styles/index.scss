@@ -1,5 +1,11 @@
+$dark-blue: #110b56;
+
 img {
   max-width: 100%;
+}
+
+p {
+  margin: 0;
 }
 
 .sidebar {
@@ -47,6 +53,35 @@ img {
       img {
         border-radius: 25px;
       }
+    }
+  }
+
+  .dashboard-overview__text {
+    font-size: 20px;
+    font-weight: 700;
+    color: $dark-blue;
+    margin: 30px 0;
+  }
+
+  .dashboard-overview--card {
+    padding: 30px !important;
+    border-radius: 2px;
+
+    .dashboard-overview--card__title {
+      font-size: 15px;
+      color: $dark-blue;
+      margin-bottom: 15px;
+    }
+
+    .dashboard-overview--card__value {
+      font-size: 20px;
+      color: $dark-blue;
+      font-weight: 700;
+    }
+
+    .dashboard-overview--card__text {
+      color: #919eab;
+      margin-top: 5px;
     }
   }
 }
