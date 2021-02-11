@@ -84,4 +84,20 @@ p {
       margin-top: 5px;
     }
   }
+
+  .dashboard-overview--chart {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 40px 0;
+
+    .dashboard-overview--chart__switch {
+      width: 150px;
+    }
+
+    .dashboard-overview--chart__legend{
+      color: $dark-blue;
+      align-self: center;
+      justify-self: flex-end;
+    }
+  }
 }

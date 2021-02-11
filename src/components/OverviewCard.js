@@ -16,7 +16,7 @@ export const OverviewCard = ({ data }) => {
         <p className='dashboard-overview--card__value'>{value}</p>
         <Box
           component={profit ? ArrowUpwardIcon : ArrowDownwardIcon}
-          mr={1}
+          mr={0.2}
           style={{ color: profit ? '#50B83C' : '#F52D56', fontSize: '12px' }}
         />
         <span
