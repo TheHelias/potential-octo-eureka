@@ -267,5 +267,77 @@ const data = [
     revenue: 34,
     img: logo1,
     revenueStatus: 'Pending'
+  },
+  {
+    name: 'Mehmet',
+    size: 'Baran',
+    year: 1987,
+    revenue: 63,
+    img: logo1,
+    revenueStatus: 'Declined'
+  },
+  {
+    name: 'Zerya Betül',
+    size: 'Baran',
+    year: 2017,
+    revenue: 34,
+    img: logo1,
+    revenueStatus: 'Approved'
+  },
+  {
+    name: 'Zerya Betül',
+    size: 'Baran',
+    year: 2017,
+    revenue: 34,
+    img: logo1,
+    revenueStatus: 'Pending'
+  },
+  {
+    name: 'Mehmet',
+    size: 'Baran',
+    year: 1987,
+    revenue: 63,
+    img: logo1,
+    revenueStatus: 'Declined'
+  },
+  {
+    name: 'Zerya Betül',
+    size: 'Baran',
+    year: 2017,
+    revenue: 34,
+    img: logo1,
+    revenueStatus: 'Approved'
+  },
+  {
+    name: 'Zerya Betül',
+    size: 'Baran',
+    year: 2017,
+    revenue: 34,
+    img: logo1,
+    revenueStatus: 'Pending'
+  },
+  {
+    name: 'Mehmet',
+    size: 'Baran',
+    year: 1987,
+    revenue: 63,
+    img: logo1,
+    revenueStatus: 'Declined'
+  },
+  {
+    name: 'Zerya Betül',
+    size: 'Baran',
+    year: 2017,
+    revenue: 34,
+    img: logo1,
+    revenueStatus: 'Approved'
+  },
+  {
+    name: 'Zerya Betül',
+    size: 'Baran',
+    year: 2017,
+    revenue: 34,
+    img: logo1,
+    revenueStatus: 'Pending'
   }
 ]
