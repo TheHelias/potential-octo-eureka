@@ -2,7 +2,7 @@
 
 $dark-blue: #110b56;
 
-body{
+body {
   font-family: 'Mulish', sans-serif;
 }
 img {
@@ -178,6 +178,41 @@ p {
       color: #3b4859;
       font-size: 20px;
       margin-bottom: 20px;
+    }
+  }
+
+  .dashboard-overview--messages {
+    border: 1px solid #E3EDED;
+    margin: 20px 0;
+    padding: 30px;
+    font-size: 12px;
+
+    .dashboard-overview--messages__title{
+      color: #2979f2;
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    .dashboard-overview--messages__button{
+      background: #2979f2;
+      color: #fff;
+      font-size: 12px;
+      text-transform: capitalize;
+      float: right;
+      border-radius: 2px;
+      margin-bottom: 30px;
+    }
+.dashboard-overview--messages__item{
+  border-bottom: 1px solid #e3eded;
+  padding: 10px 5px;
+}
+    .dashboard-overview--messages__company-name{
+      color: #2979f2;
+      font-weight: 600;
+    }
+
+    .dashboard-overview--messages__text, .dashboard-overview--messages__time{
+      color: #919eab;
     }
   }
 }

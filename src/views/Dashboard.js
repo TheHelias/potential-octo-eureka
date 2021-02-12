@@ -2,6 +2,7 @@ import React from 'react'
 import Box from '@material-ui/core/Box'
 import Grid from '@material-ui/core/Grid'
 import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord'
+
 import {
   XAxis,
   YAxis,
@@ -17,6 +18,7 @@ import { Header } from '../components/Header'
 import { FormControl, InputLabel, Select } from '@material-ui/core'
 import DataTable from '../components/DataTable'
 import { Sidebar } from '../components/Sidebar'
+import { Messages } from '../components/Messages'
 
 function Dashboard () {
   return (
@@ -115,6 +117,7 @@ function Dashboard () {
                 390
               </p>
             </Box>
+            <Messages />
           </Grid>
         </Grid>
       </Box>
