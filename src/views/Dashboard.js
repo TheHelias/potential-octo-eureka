@@ -16,11 +16,12 @@ import { OverviewCard } from '../components/OverviewCard'
 import { Header } from '../components/Header'
 import { FormControl, InputLabel, Select } from '@material-ui/core'
 import DataTable from '../components/DataTable'
+import { Sidebar } from '../components/Sidebar'
 
 function Dashboard () {
   return (
     <div>
-      <Box className='sidebar'>Dashboard</Box>
+      <Sidebar />
       <Box className='dashboard'>
         <Header />
         <p className='dashboard-overview__text'>Overview</p>
@@ -96,8 +97,24 @@ function Dashboard () {
           </AreaChart>
         </ResponsiveContainer>
         <Grid container spacing={4}>
-          <Grid item xs={12} md={8}>
+          <Grid item xs={12} md={9}>
             <DataTable />
+          </Grid>
+          <Grid item xs={12} md={3}>
+            <Box className='dashboard-overview--customer-satisfaction'>
+              <p className='dashboard-overview--customer-satisfaction__title'>
+                Customer Satisfation
+              </p>
+              <p className='dashboard-overview--customer-satisfaction__subtitle'>
+                Across help desk this month
+              </p>
+              <p className='dashboard-overview--customer-satisfaction__response'>
+                Response received
+              </p>
+              <p className='dashboard-overview--customer-satisfaction__response-value'>
+                390
+              </p>
+            </Box>
           </Grid>
         </Grid>
       </Box>

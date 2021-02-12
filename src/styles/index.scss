@@ -15,6 +15,31 @@ p {
   left: 0;
   height: 100vh;
   width: 12%;
+  padding-top: 90px;
+  font-size: 15px;
+  font-weight: 700;
+
+  .sidebar-item {
+    display: flex;
+    padding: 10px 0 10px 30px;
+    align-items: center;
+    margin: 10px 0;
+    color: #637381;
+  }
+
+  .sidebar-item.active {
+    color: #2979f2;
+    display: flex;
+    padding: 10px 0 10px 30px;
+    align-items: center;
+    border-right: 3px solid #2979f2;
+    background: #eaeffd;
+  }
+
+  .sidebar-item.bottom {
+    position: absolute;
+    bottom: 0;
+  }
 }
 
 .dashboard {
@@ -94,31 +119,60 @@ p {
       width: 150px;
     }
 
-    .dashboard-overview--chart__legend{
+    .dashboard-overview--chart__legend {
       color: $dark-blue;
       align-self: center;
       justify-self: flex-end;
     }
   }
 
-  .dashboard-table--toolbar{
+  .dashboard-table--toolbar {
     height: 60px;
     box-sizing: border-box;
 
-    .dashboard-table--toolbar__option{
+    .dashboard-table--toolbar__option {
       box-sizing: border-box;
       border: 1px solid #e3eded;
       padding: 5px 20px;
     }
 
-    .dashboard-table--toolbar__option.active{
-      background: #EAEFFD;
-      border-bottom: 3px solid #2979F2;
+    .dashboard-table--toolbar__option.active {
+      background: #eaeffd;
+      border-bottom: 3px solid #2979f2;
     }
 
-    .dashboard-table--toolbar__button{
+    .dashboard-table--toolbar__button {
       width: 120px;
       float: right;
+    }
+  }
+
+  .dashboard-overview--customer-satisfaction {
+    background: #e7f5fe;
+    margin: 40px 0;
+    padding: 30px;
+
+    .dashboard-overview--customer-satisfaction__title {
+      color: #2979f2;
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    .dashboard-overview--customer-satisfaction__subtitle {
+      color: #919eab;
+      font-size: 12px;
+      margin-bottom: 20px;
+    }
+
+    .dashboard-overview--customer-satisfaction__response {
+      color: #2979f2;
+      font-size: 12px;
+    }
+
+    .dashboard-overview--customer-satisfaction__response-value {
+      color: #3b4859;
+      font-size: 20px;
+      margin-bottom: 20px;
     }
   }
 }

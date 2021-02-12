@@ -181,7 +181,7 @@ function DataTable () {
       icons={tableIcons}
       style={{
         padding: '30px 20px',
-        margin: 0,
+        margin: '40px 0',
         fontSize: '12px'
       }}
       options={{
