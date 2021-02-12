@@ -163,6 +163,24 @@ p {
       font-weight: 600;
     }
 
+    .dashboard-overview--customer-satisfaction__assessment{
+      font-size: 12px;
+      color: #919eab;
+      align-items: center;
+
+      .dashboard-overview--customer-satisfaction__assessment-icon.positive{
+        color: #2979f2;
+      }
+
+      .dashboard-overview--customer-satisfaction__assessment-icon.neutral{
+        color: #ffca00;
+      }
+
+      .dashboard-overview--customer-satisfaction__assessment-icon.negative{
+        color: #fa5f1c;
+      }
+    }
+
     .dashboard-overview--customer-satisfaction__subtitle {
       color: #919eab;
       font-size: 12px;
@@ -182,18 +200,18 @@ p {
   }
 
   .dashboard-overview--messages {
-    border: 1px solid #E3EDED;
+    border: 1px solid #e3eded;
     margin: 20px 0;
     padding: 30px;
     font-size: 12px;
 
-    .dashboard-overview--messages__title{
+    .dashboard-overview--messages__title {
       color: #2979f2;
       font-size: 20px;
       font-weight: 600;
     }
 
-    .dashboard-overview--messages__button{
+    .dashboard-overview--messages__button {
       background: #2979f2;
       color: #fff;
       font-size: 12px;
@@ -202,16 +220,17 @@ p {
       border-radius: 2px;
       margin-bottom: 30px;
     }
-.dashboard-overview--messages__item{
-  border-bottom: 1px solid #e3eded;
-  padding: 10px 5px;
-}
-    .dashboard-overview--messages__company-name{
+    .dashboard-overview--messages__item {
+      border-bottom: 1px solid #e3eded;
+      padding: 10px 5px;
+    }
+    .dashboard-overview--messages__company-name {
       color: #2979f2;
       font-weight: 600;
     }
 
-    .dashboard-overview--messages__text, .dashboard-overview--messages__time{
+    .dashboard-overview--messages__text,
+    .dashboard-overview--messages__time {
       color: #919eab;
     }
   }
