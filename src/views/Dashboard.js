@@ -15,6 +15,7 @@ import {
 import { OverviewCard } from '../components/OverviewCard'
 import { Header } from '../components/Header'
 import { FormControl, InputLabel, Select } from '@material-ui/core'
+import DataTable from '../components/DataTable'
 
 function Dashboard () {
   return (
@@ -94,6 +95,11 @@ function Dashboard () {
             />
           </AreaChart>
         </ResponsiveContainer>
+        <Grid container spacing={4}>
+          <Grid item xs={12} md={8}>
+            <DataTable />
+          </Grid>
+        </Grid>
       </Box>
     </div>
   )

@@ -100,4 +100,25 @@ p {
       justify-self: flex-end;
     }
   }
+
+  .dashboard-table--toolbar{
+    height: 60px;
+    box-sizing: border-box;
+
+    .dashboard-table--toolbar__option{
+      box-sizing: border-box;
+      border: 1px solid #e3eded;
+      padding: 5px 20px;
+    }
+
+    .dashboard-table--toolbar__option.active{
+      background: #EAEFFD;
+      border-bottom: 3px solid #2979F2;
+    }
+
+    .dashboard-table--toolbar__button{
+      width: 120px;
+      float: right;
+    }
+  }
 }
